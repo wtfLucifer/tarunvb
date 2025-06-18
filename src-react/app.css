@@ -9,7 +9,7 @@ body {
   font-family: 'Bebas Neue', sans-serif; /* Default app font */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000; /* Ensure body background is black */
+  background-color: #fff; /* Ensure body background is white for this theme */
   overflow: hidden; /* Prevent body scrollbar if layout is full screen */
 }
 
@@ -18,7 +18,7 @@ body {
     width: 8px;
 }
 .custom-scrollbar::-webkit-scrollbar-track {
-    background: #333; /* Darker track for black theme */
+    background: #f0f0f0; /* Lighter track for white theme */
     border-radius: 10px;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb {
@@ -38,10 +38,10 @@ body {
   font-family: 'Bangers', cursive;
 }
 
-/* Chat message bubbles */
+/* Chat message bubbles - Styles for white theme */
 .chat-message {
   display: flex;
-  margin-bottom: 1rem; /* Consistent spacing */
+  margin-bottom: 1rem;
 }
 
 .user-message {
@@ -49,10 +49,10 @@ body {
 }
 
 .user-message .message-bubble {
-  background-color: #333; /* Darker background for user messages */
-  color: #fff; /* White text */
+  background-color: #e0e0e0; /* Light gray background for user messages */
+  color: #333; /* Darker text */
   align-self: flex-end;
-  border: 1px solid #555; /* Subtle border */
+  border: 1px solid #ccc; /* Subtle border */
 }
 
 .bot-message {
@@ -60,38 +60,10 @@ body {
 }
 
 .bot-message .message-bubble {
-  background-color: #1a1a1a; /* Even darker background for bot messages */
-  color: #fff; /* White text */
+  background-color: #f0f0f0; /* Slightly lighter gray for bot messages */
+  color: #333; /* Darker text */
   align-self: flex-start;
-  border: 1px solid #444; /* Subtle border */
+  border: 1px solid #ddd; /* Subtle border */
 }
 
-/* General Layout adjustments (mostly handled by Tailwind in App.js) */
-/* Removed empty rulesets for .app-container, .sidebar, .header-section, .main-content, .input-area */
-
-/* Explicit text sizes if Tailwind defaults are not sufficient, or for consistency */
-/* Ensure these match your App.js class usage */
-.text-xl {
-  font-size: 1.25rem; /* 20px */
-}
-.text-2xl {
-  font-size: 1.5rem; /* 24px */
-}
-.text-3xl {
-  font-size: 1.875rem; /* 30px */
-}
-.text-4xl {
-  font-size: 2.25rem; /* 36px */
-}
-.text-5xl {
-  font-size: 3rem; /* 48px */
-}
-.text-6xl {
-  font-size: 3.75rem; /* 60px */
-}
-.text-7xl {
-  font-size: 4.5rem; /* 72px */
-}
-.text-8xl {
-  font-size: 6rem; /* 96px */
-}
+/* Add any other specific styles here if needed, but Tailwind should handle most */
