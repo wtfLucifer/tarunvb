@@ -1,4 +1,4 @@
-/* Import Google Fonts - Ensure these URLs are correct */
+/* Import Google Fonts - Essential for your custom fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bangers&display=swap');
 
 /* Basic reset */
@@ -6,10 +6,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Bebas Neue', sans-serif; /* Default font */
+  font-family: 'Bebas Neue', sans-serif; /* Default app font */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000; /* Ensure body background is black */
+  overflow: hidden; /* Prevent body scrollbar if layout is full screen */
 }
 
 /* Custom scrollbar for chat area and sidebar */
@@ -28,7 +29,7 @@ body {
     background: #555;
 }
 
-/* Font Definitions */
+/* Font Definitions (already in Tailwind config, but good to have fallback/explicit here) */
 .font-bebas {
   font-family: 'Bebas Neue', cursive;
 }
@@ -65,35 +66,32 @@ body {
   border: 1px solid #444; /* Subtle border */
 }
 
-/* Adjustments for the new layout (App.js handles main flex) */
-.app-container {
-  /* No additional flex properties needed here as App.js sets them */
-}
+/* General Layout adjustments (mostly handled by Tailwind in App.js) */
+/* Removed empty rulesets for .app-container, .sidebar, .header-section, .main-content, .input-area */
 
-.sidebar {
-  min-width: 250px; /* Ensure sidebar has a minimum width */
-  max-width: 300px; /* Optional: max width */
-}
-
-.header-section {
-  /* Specific styling for the header */
-}
-
-.main-content {
-  /* Specific styling for the main content area */
-}
-
-.input-area {
-  /* Specific styling for the input section */
-}
-
-/* Ensure text sizes match your requirements */
-.text-2xl { /* For input field */
-  font-size: 1.5rem; /* 24px */
-  line-height: 2rem;
-}
-.text-xl { /* For bot responses */
+/* Explicit text sizes if Tailwind defaults are not sufficient, or for consistency */
+/* Ensure these match your App.js class usage */
+.text-xl {
   font-size: 1.25rem; /* 20px */
-  line-height: 1.75rem;
 }
-/* You can further refine these with custom classes if needed */
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+}
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+}
+.text-4xl {
+  font-size: 2.25rem; /* 36px */
+}
+.text-5xl {
+  font-size: 3rem; /* 48px */
+}
+.text-6xl {
+  font-size: 3.75rem; /* 60px */
+}
+.text-7xl {
+  font-size: 4.5rem; /* 72px */
+}
+.text-8xl {
+  font-size: 6rem; /* 96px */
+}

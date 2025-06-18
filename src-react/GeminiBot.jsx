@@ -4,7 +4,7 @@ import { FaPaperPlane, FaMicrophone, FaStopCircle } from 'react-icons/fa';
 const GeminiBot = ({ setChatHistory }) => {
   const [input, setInput] = useState('');
   const [isRecording, setIsRecording] = useState(false);
-  const [showSttTtsWarning, setShowSttTtsWarning] = useState(false); // New state for warning pop-up
+  const [showSttTtsWarning, setShowSttTtsWarning] = useState(false); // State for warning pop-up
 
   const handleSend = async () => {
     if (!input.trim()) return;
@@ -57,12 +57,10 @@ const GeminiBot = ({ setChatHistory }) => {
 
   const handleVoiceButtonClick = () => {
     setIsRecording(prev => !prev);
-    // Display the warning immediately when the button is clicked
-    setShowSttTtsWarning(true); 
+    setShowSttTtsWarning(true); // Always show warning when button is clicked
 
     if (isRecording) {
       console.log("Stopped recording.");
-      // No automatic send for now, as per instruction to display message
     } else {
       console.log("Started recording...");
     }
@@ -70,19 +68,19 @@ const GeminiBot = ({ setChatHistory }) => {
 
   return (
     <>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-4"> {/* Increased gap */}
         {/* Voice Recording Button */}
         <button
           onClick={handleVoiceButtonClick}
           className={`p-4 rounded-lg flex items-center justify-center transition-colors duration-200 ${
             isRecording ? 'bg-white' : 'bg-red-600'
           }`}
-          style={{ width: '60px', height: '60px' }}
+          style={{ width: '64px', height: '64px' }} // Slightly larger square button
         >
           {isRecording ? (
-            <FaStopCircle className="text-red-600 text-3xl" />
+            <FaStopCircle className="text-red-600 text-4xl" /> 
           ) : (
-            <FaMicrophone className="text-white text-3xl" />
+            <FaMicrophone className="text-white text-4xl" /> 
           )}
         </button>
 
@@ -92,29 +90,29 @@ const GeminiBot = ({ setChatHistory }) => {
           onChange={(e) => setInput(e.target.value)}
           onKeyPress={handleKeyPress}
           placeholder="TYPE YOUR QUESTION..."
-          className="flex-1 p-4 rounded bg-gray-700 text-white border border-gray-600 text-2xl font-bebas placeholder-gray-400"
+          className="flex-1 p-5 rounded-lg bg-gray-700 text-white border border-gray-600 text-2xl font-bebas placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500" // Added focus styles
           autoFocus
         />
-        <button onClick={handleSend} className="p-4 rounded-full bg-red-600 hover:bg-red-700 transition-colors duration-200">
+        <button onClick={handleSend} className="p-5 rounded-full bg-red-600 hover:bg-red-700 transition-colors duration-200">
           <FaPaperPlane className="text-white text-3xl" />
         </button>
       </div>
 
       {/* STT/TTS Warning Pop-up */}
       {showSttTtsWarning && (
-        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-          <div className="bg-gray-800 p-8 rounded-lg shadow-xl border border-gray-600 text-center font-bebas text-white max-w-sm">
-            <p className="text-2xl mb-4">
+        <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
+          <div className="bg-gray-900 p-8 rounded-lg shadow-xl border border-gray-700 text-center font-bebas text-white max-w-sm">
+            <p className="text-2xl mb-4 leading-relaxed">
               Not added STT & TTS yet, need to setup billing account, smh.
             </p>
-            <p className="text-xl mb-6">
+            <p className="text-xl mb-6 leading-relaxed">
               Please type, I have built a good RAG.
             </p>
             <button
               onClick={() => setShowSttTtsWarning(false)}
-              className="mt-4 px-6 py-3 bg-red-600 hover:bg-red-700 text-white text-xl font-bebas rounded-lg transition-colors duration-200"
+              className="mt-4 px-8 py-4 bg-red-600 hover:bg-red-700 text-white text-2xl font-bangers tracking-wider rounded-lg transition-colors duration-200"
             >
-              OK
+              OK, GOT IT!
             </button>
           </div>
         </div>

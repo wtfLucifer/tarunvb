@@ -128,7 +128,7 @@
 80C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\itsdangerous\serializer.py133946915239905661 0
 117C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\googleapiclient\discovery_cache\documents\clouddebugger.v2.json133946916423571295 0
 127C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\ai\generativelanguage_v1\types\__pycache__\content.cpython-313.pyc133946916430881097 0
-37C:\Users\ADMIN\Desktop\tarunvb\static133947048247202482 1
+37C:\Users\ADMIN\Desktop\tarunvb\static133947056180584172 1
 128C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\ai\generativelanguage_v1alpha\services\permission_service\pagers.py133946916428637851 0
 73C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\werkzeug\serving.py133946915240800795 0
 104C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\cloud\speech_v2\services\speech\__init__.py133946915668271220 0
@@ -5853,7 +5853,7 @@
 138C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\cloud\texttospeech_v1\services\text_to_speech_long_audio_synthesize\client.py133946916060390043 0
 68C:\Users\ADMIN\Desktop\tarunvb\node_modules\react-icons\io5\index.js133946992350364169 0
 139C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\cloud\texttospeech_v1\services\text_to_speech_long_audio_synthesize\transports133946916061048228 1
-48C:\Users\ADMIN\Desktop\tarunvb\src-react\app.css133947040504588539 0
+48C:\Users\ADMIN\Desktop\tarunvb\src-react\app.css133947055940608319 0
 140C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\cloud\texttospeech_v1\services\text_to_speech_long_audio_synthesize\__pycache__133946916061033895 1
 96C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\features\css-media-range-syntax.js133946992350732764 0
 71C:\Users\ADMIN\Desktop\tarunvb\node_modules\semver\ranges\intersects.js133946992347136410 0
@@ -7207,11 +7207,11 @@
 91C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\annotated_types-0.7.0.dist-info\WHEEL133946916415836036 0
 102C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\annotated_types-0.7.0.dist-info\licenses\LICENSE133946916415846091 0
 51C:\Users\ADMIN\Desktop\tarunvb\static\index.css.map133946996253805371 0
-46C:\Users\ADMIN\Desktop\tarunvb\static\index.js133947048247055964 0
-50C:\Users\ADMIN\Desktop\tarunvb\static\index.js.map133947048247191378 0
-47C:\Users\ADMIN\Desktop\tarunvb\src-react\app.js133947047985117414 0
+46C:\Users\ADMIN\Desktop\tarunvb\static\index.js133947056180439532 0
+50C:\Users\ADMIN\Desktop\tarunvb\static\index.js.map133947056180573606 0
+47C:\Users\ADMIN\Desktop\tarunvb\src-react\app.js133947052825673151 0
 79C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\alt-sa.js133946992347418982 0
-54C:\Users\ADMIN\Desktop\tarunvb\src-react\GeminiBot.jsx133947047668092953 0
+54C:\Users\ADMIN\Desktop\tarunvb\src-react\GeminiBot.jsx133947054269807152 0
 49C:\Users\ADMIN\Desktop\tarunvb\src-react\index.js133946992571093879 0
 48C:\Users\ADMIN\Desktop\tarunvb\node_modules\.bin133946992455280864 1
 85C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\features\wbr-element.js133946992358356468 0
