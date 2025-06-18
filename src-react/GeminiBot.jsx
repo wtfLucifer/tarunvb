@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
-import { FaPaperPlane } from 'react-icons/fa';
+import { FaPaperPlane, FaMicrophone, FaStopCircle } from 'react-icons/fa'; // Added microphone icons
 
-const GeminiBot = ({ setChatHistory }) => { 
+const GeminiBot = ({ setChatHistory }) => {
   const [input, setInput] = useState('');
-  const [currentBotResponse, setCurrentBotResponse] = useState('');
+  const [isRecording, setIsRecording] = useState(false); // New state for recording button
 
   const handleSend = async () => {
     if (!input.trim()) return;
 
-    setChatHistory(prev => [...prev, { sender: 'user', message: input }]);
-    setCurrentBotResponse('Thinking...');
+    setChatHistory({ sender: 'user', message: input });
+    // Temporarily add a "thinking" message from bot
+    setChatHistory({ sender: 'bot', message: 'Tarun is thinking...' }); 
 
     const userMessage = input; 
     setInput('');
 
     try {
-      // Fetch from your *backend* API endpoint served by Flask
-      const res = await fetch('/api/ask_bot', { 
+      const res = await fetch('/api/ask_bot', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -40,42 +40,66 @@ const GeminiBot = ({ setChatHistory }) => {
         botReply = 'Unexpected response format from backend.';
       }
       
-      setCurrentBotResponse(botReply);
-      setChatHistory(prev => [...prev, { sender: 'bot', message: botReply }]);
+      // Update the *last* bot message or add a new one if it was just "thinking"
+      // For simplicity here, we'll just add the final response.
+      setChatHistory({ sender: 'bot', message: botReply });
 
     } catch (error) {
       console.error('❌ Error communicating with backend:', error);
       const errorMessage = `Error: Could not reach the server. (${error.message})`;
-      setCurrentBotResponse(errorMessage);
-      setChatHistory(prev => [...prev, { sender: 'bot', message: errorMessage }]);
+      setChatHistory({ sender: 'bot', message: errorMessage });
     }
   };
 
   const handleKeyPress = (e) => {
-    if (e.key === 'Enter') {
+    if (e.key === 'Enter' && !isRecording) { // Only send on Enter if not recording
       handleSend();
     }
   };
 
+  const handleVoiceButtonClick = () => {
+    // This is purely UI logic for now. Actual STT/TTS integration comes later.
+    setIsRecording(prev => !prev);
+    if (isRecording) {
+      // Logic for stopping recording and sending (future)
+      console.log("Stopped recording. Would send/share now.");
+      // If you want it to automatically send input after stopping recording:
+      // handleSend(); // Uncomment this line if stopping recording should also send the input
+    } else {
+      // Logic for starting recording (future)
+      console.log("Started recording...");
+    }
+  };
+
   return (
-    <div className="flex-1 flex flex-col justify-between p-6 bg-white overflow-y-auto">
-      <div className="flex-grow whitespace-pre-line text-black text-2xl font-bebas mb-4">
-        {currentBotResponse || 'Ask something...'}
-      </div>
-      <div className="flex items-center gap-3">
-        <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyPress={handleKeyPress}
-          placeholder="Type your question..."
-          className="flex-1 p-4 rounded bg-black text-white border border-black text-2xl font-bebas"
-          autoFocus
-        />
-        <button onClick={handleSend} className="p-4 rounded-full bg-black">
-          <FaPaperPlane className="text-white text-2xl" />
-        </button>
-      </div>
+    <div className="flex items-center gap-3">
+      {/* Voice Recording Button */}
+      <button
+        onClick={handleVoiceButtonClick}
+        className={`p-4 rounded-lg flex items-center justify-center transition-colors duration-200 ${
+          isRecording ? 'bg-white' : 'bg-red-600'
+        }`}
+        style={{ width: '60px', height: '60px' }} // Make it a square button
+      >
+        {isRecording ? (
+          <FaStopCircle className="text-red-600 text-3xl" /> // White button, red stop icon
+        ) : (
+          <FaMicrophone className="text-white text-3xl" /> // Red button, white mic icon
+        )}
+      </button>
+
+      <input
+        type="text"
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        onKeyPress={handleKeyPress}
+        placeholder="TYPE YOUR QUESTION..."
+        className="flex-1 p-4 rounded bg-gray-700 text-white border border-gray-600 text-2xl font-bebas placeholder-gray-400"
+        autoFocus
+      />
+      <button onClick={handleSend} className="p-4 rounded-full bg-red-600 hover:bg-red-700 transition-colors duration-200">
+        <FaPaperPlane className="text-white text-3xl" />
+      </button>
     </div>
   );
 };

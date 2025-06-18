@@ -1,20 +1,23 @@
-/* Import Bebas Neue font */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Import Google Fonts - Ensure these URLs are correct */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bangers&display=swap');
 
 /* Basic reset */
 body {
   margin: 0;
-  font-family: 'Bebas Neue', sans-serif; /* Use your chosen font */
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', sans-serif; /* Default font */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000; /* Ensure body background is black */
 }
 
-/* Custom scrollbar for chat area */
+/* Custom scrollbar for chat area and sidebar */
 .custom-scrollbar::-webkit-scrollbar {
     width: 8px;
 }
 .custom-scrollbar::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #333; /* Darker track for black theme */
     border-radius: 10px;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb {
@@ -25,34 +28,72 @@ body {
     background: #555;
 }
 
+/* Font Definitions */
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.font-bangers {
+  font-family: 'Bangers', cursive;
+}
+
 /* Chat message bubbles */
 .chat-message {
   display: flex;
-  font-size: 1.125rem; /* text-lg */
-  line-height: 1.5;
+  margin-bottom: 1rem; /* Consistent spacing */
 }
 
 .user-message {
   justify-content: flex-end;
 }
 
-.user-message p {
-  background-color: #e0f2f7; /* Light blue for user */
-  color: #333;
+.user-message .message-bubble {
+  background-color: #333; /* Darker background for user messages */
+  color: #fff; /* White text */
   align-self: flex-end;
+  border: 1px solid #555; /* Subtle border */
 }
 
 .bot-message {
   justify-content: flex-start;
 }
 
-.bot-message p {
-  background-color: #d1fae5; /* Light green for bot */
-  color: #333;
+.bot-message .message-bubble {
+  background-color: #1a1a1a; /* Even darker background for bot messages */
+  color: #fff; /* White text */
   align-self: flex-start;
+  border: 1px solid #444; /* Subtle border */
 }
 
-/* Tailwind CSS classes if you are using it - ensure your tailwind.config.js is set up */
-.font-bebas {
-  font-family: 'Bebas Neue', cursive;
+/* Adjustments for the new layout (App.js handles main flex) */
+.app-container {
+  /* No additional flex properties needed here as App.js sets them */
 }
+
+.sidebar {
+  min-width: 250px; /* Ensure sidebar has a minimum width */
+  max-width: 300px; /* Optional: max width */
+}
+
+.header-section {
+  /* Specific styling for the header */
+}
+
+.main-content {
+  /* Specific styling for the main content area */
+}
+
+.input-area {
+  /* Specific styling for the input section */
+}
+
+/* Ensure text sizes match your requirements */
+.text-2xl { /* For input field */
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem;
+}
+.text-xl { /* For bot responses */
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem;
+}
+/* You can further refine these with custom classes if needed */
