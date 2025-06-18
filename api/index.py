@@ -20,7 +20,7 @@ if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not set. Check your .env or Vercel config.")
 
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel('gemini-1.5-pro-latest')
+gemini_model = genai.GenerativeModel('gemini-1.5-flash')
 
 # --- Persona Definition (Tarun's Core Identity) ---
 MY_PERSONA_BASE = """
