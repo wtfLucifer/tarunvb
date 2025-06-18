@@ -1,6 +1,7 @@
+// src-react/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App'; // Or directly import GeminiBot if App.js is not needed
+import App from './app'; // Changed from './App' to './app'
 import './App.css'; // Optional: for global React component styles
 
 // Ensure the element with id 'root' exists in your templates/index.html
