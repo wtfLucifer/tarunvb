@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build:react": "parcel build src-react/index.js --dist-dir static --public-url /static/"
+    "build:react": "parcel build src-react/index.js --dist-dir static --public-url /static/",
+    "build": "npm run build:react"
   },
   "dependencies": {
     "react": "^18.2.0",

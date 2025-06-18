@@ -1,4 +1,4 @@
-9350
+9351
 120C:\Users\ADMIN\Desktop\tarunvb\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\detect-libc.js133946992345679694 0
 80C:\Users\ADMIN\Desktop\tarunvb\node_modules\.bin\download-msgpackr-prebuilds.ps1133946992455270812 0
 127C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\googleapiclient\discovery_cache\documents\doubleclickbidmanager.v1.1.json133946916425082142 0
@@ -24,7 +24,7 @@
 92C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\urllib3\contrib\emscripten\__init__.py133946915647313075 0
 80C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\features\webhid.js133946992358985149 0
 140C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\cloud\speech_v2\services\speech\transports\__pycache__\__init__.cpython-313.pyc133946915670437947 0
-43C:\Users\ADMIN\Desktop\tarunvb\package.json133946991710191574 0
+43C:\Users\ADMIN\Desktop\tarunvb\package.json133947099634261204 0
 79C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\pyasn1_modules\rfc5084.py133946915657634307 0
 119C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\googleapiclient\discovery_cache\documents\documentai.v1beta2.json133946916425037810 0
 96C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\pyparsing\__pycache__\util.cpython-313.pyc133946916412861416 0
@@ -80,7 +80,7 @@
 87C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\urllib3-2.4.0.dist-info\INSTALLER133946915648425958 0
 90C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\auth\_service_account_info.py133946915664198887 0
 129C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\cloud\texttospeech_v1\services\text_to_speech\transports\__pycache__133946916060960616 1
-39C:\Users\ADMIN\Desktop\tarunvb\procfile133946923949269369 0
+39C:\Users\ADMIN\Desktop\tarunvb\procfile133947096219375651 0
 111C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\rapidfuzz\distance\__pycache__\Hamming_py.cpython-313.pyc133946999599342245 0
 70C:\Users\ADMIN\Desktop\tarunvb\node_modules\@swc\helpers\_\_call_super133946992350955231 1
 157C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\retriever_service\__pycache__\async_client.cpython-313.pyc133946916437272811 0
@@ -95,7 +95,7 @@
 98C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\blinker\__pycache__\__init__.cpython-313.pyc133946915240636815 0
 53C:\Users\ADMIN\Desktop\tarunvb\node_modules\term-size133946992346991617 1
 67C:\Users\ADMIN\Desktop\tarunvb\node_modules\react-icons\bs\index.js133946992348223555 0
-48C:\Users\ADMIN\Desktop\tarunvb\package-lock.json133946995600944677 0
+48C:\Users\ADMIN\Desktop\tarunvb\package-lock.json133947096481650196 0
 80C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\pip\_vendor\rich\_timer.py133946882004473546 0
 51C:\Users\ADMIN\Desktop\tarunvb\venv\Scripts\pip.exe133946882016731919 0
 111C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\googleapiclient\discovery_cache\documents\webrisk.v1.json133946916427329271 0
@@ -119,7 +119,7 @@
 69C:\Users\ADMIN\Desktop\tarunvb\node_modules\node-addon-api\LICENSE.md133946992347202523 0
 79C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\pyasn1_modules\rfc5639.py133946915657654753 0
 57C:\Users\ADMIN\Desktop\tarunvb\venv\Scripts\activate.fish133946895644275801 0
-40C:\Users\ADMIN\Desktop\tarunvb\src-react133947076994469582 1
+40C:\Users\ADMIN\Desktop\tarunvb\src-react133947089034387879 1
 86C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\pyasn1-0.6.1.dist-info\INSTALLER133946915649581281 0
 83C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\pydantic\v1\error_wrappers.py133946916417547748 0
 66C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\tqdm\rich.py133946916410869635 0
@@ -128,7 +128,7 @@
 80C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\itsdangerous\serializer.py133946915239905661 0
 117C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\googleapiclient\discovery_cache\documents\clouddebugger.v2.json133946916423571295 0
 127C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\ai\generativelanguage_v1\types\__pycache__\content.cpython-313.pyc133946916430881097 0
-37C:\Users\ADMIN\Desktop\tarunvb\static133947079521145892 1
+37C:\Users\ADMIN\Desktop\tarunvb\static133947098870787277 1
 128C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\ai\generativelanguage_v1alpha\services\permission_service\pagers.py133946916428637851 0
 73C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\werkzeug\serving.py133946915240800795 0
 116C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\googleapiclient\discovery_cache\documents\displayvideo.v4.json133946916424969187 0
@@ -155,7 +155,7 @@
 79C:\Users\ADMIN\Desktop\tarunvb\node_modules\@parcel\transformer-postcss\LICENSE133946992353048461 0
 69C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\rsa\parallel.py133946915655949087 0
 90C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\certifi-2025.6.15.dist-info\METADATA133946915655562730 0
-42C:\Users\ADMIN\Desktop\tarunvb\vercel.json133947064201088923 0
+42C:\Users\ADMIN\Desktop\tarunvb\vercel.json133947098603040696 0
 72C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\charset_normalizer133946915655091801 1
 55C:\Users\ADMIN\Desktop\tarunvb\venv\Scripts\pip3.13.exe133946882016743387 0
 109C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\pip\_vendor\rich\__pycache__\containers.cpython-313.pyc133946882013796330 0
@@ -6316,6 +6316,7 @@
 82C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\api\visibility_pb2.py133946915662209711 0
 83C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\api\visibility_pb2.pyi133946915662209711 0
 76C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\api\__pycache__133946915663293395 1
+65C:\Users\ADMIN\Desktop\tarunvb\src-react\components\GeminiBot.jsx133947077679468942 0
 108C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\api\__pycache__\annotations_pb2.cpython-313.pyc133946915662783913 0
 101C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\api\__pycache__\auth_pb2.cpython-313.pyc133946915662807844 0
 104C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\api\__pycache__\billing_pb2.cpython-313.pyc133946915662841003 0
@@ -6461,7 +6462,7 @@
 165C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\transports\__pycache__\__init__.cpython-313.pyc133946916435756625 0
 159C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\ai\generativelanguage_v1beta3\services\discuss_service\transports\__pycache__\base.cpython-313.pyc133946916439924542 0
 163C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\ai\generativelanguage_v1beta3\services\discuss_service\transports\__pycache__\__init__.cpython-313.pyc133946916439904078 0
-47C:\Users\ADMIN\Desktop\tarunvb\static\index.css133946996253745380 0
+47C:\Users\ADMIN\Desktop\tarunvb\static\index.css133947089380192228 0
 99C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\google\ai\generativelanguage_v1beta2\py.typed133946916429602817 0
 63C:\Users\ADMIN\Desktop\tarunvb\node_modules\msgpackr\index.d.ts133946992353226188 0
 75C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\TZ.js133946992357971738 0
@@ -7209,14 +7210,15 @@
 71C:\Users\ADMIN\Desktop\tarunvb\node_modules\semver\functions\compare.js133946992346656112 0
 91C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\annotated_types-0.7.0.dist-info\WHEEL133946916415836036 0
 102C:\Users\ADMIN\Desktop\tarunvb\venv\Lib\site-packages\annotated_types-0.7.0.dist-info\licenses\LICENSE133946916415846091 0
-51C:\Users\ADMIN\Desktop\tarunvb\static\index.css.map133946996253805371 0
-46C:\Users\ADMIN\Desktop\tarunvb\static\index.js133947079520995538 0
-50C:\Users\ADMIN\Desktop\tarunvb\static\index.js.map133947079521140389 0
+51C:\Users\ADMIN\Desktop\tarunvb\static\index.css.map133947089380242640 0
+46C:\Users\ADMIN\Desktop\tarunvb\static\index.js133947089385165098 0
+50C:\Users\ADMIN\Desktop\tarunvb\static\index.js.map133947089385309121 0
+75C:\Users\ADMIN\Desktop\tarunvb\node_modules\@parcel\optimizer-image\LICENSE133946992355843328 0
+93C:\Users\ADMIN\Desktop\tarunvb\node_modules\msgpackr-extract\node_modules\detect-libc\LICENSE133946992345374356 0
+58C:\Users\ADMIN\Desktop\tarunvb\static\profile.ad84541f.png133947098870777138 0
 47C:\Users\ADMIN\Desktop\tarunvb\src-react\app.js133947076572234124 0
 47C:\Users\ADMIN\Desktop\tarunvb\src-react\assets133947079159939242 1
-51C:\Users\ADMIN\Desktop\tarunvb\src-react\components133947077412077143 1
-79C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\alt-sa.js133946992347418982 0
-54C:\Users\ADMIN\Desktop\tarunvb\src-react\GeminiBot.jsx133947077679468942 0
+51C:\Users\ADMIN\Desktop\tarunvb\src-react\components133947089034387879 1
 49C:\Users\ADMIN\Desktop\tarunvb\src-react\index.js133946992571093879 0
 67C:\Users\ADMIN\Desktop\tarunvb\node_modules\react-icons\md\index.js133946992350587179 0
 62C:\Users\ADMIN\Desktop\tarunvb\src-react\components\Header.jsx133947077268524377 0
@@ -7673,8 +7675,6 @@
 114C:\Users\ADMIN\Desktop\tarunvb\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\LICENSE133946992362995709 0
 118C:\Users\ADMIN\Desktop\tarunvb\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\optional.js133946992363041532 0
 119C:\Users\ADMIN\Desktop\tarunvb\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\package.json133946992363051307 0
-75C:\Users\ADMIN\Desktop\tarunvb\node_modules\@parcel\optimizer-image\LICENSE133946992355843328 0
-93C:\Users\ADMIN\Desktop\tarunvb\node_modules\msgpackr-extract\node_modules\detect-libc\LICENSE133946992345374356 0
 65C:\Users\ADMIN\Desktop\tarunvb\node_modules\escalade\package.json133946992345888241 0
 80C:\Users\ADMIN\Desktop\tarunvb\node_modules\@parcel\optimizer-image\package.json133946992355866056 0
 98C:\Users\ADMIN\Desktop\tarunvb\node_modules\msgpackr-extract\node_modules\detect-libc\package.json133946992346018827 0
@@ -7942,6 +7942,7 @@
 79C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\alt-as.js133946992347091973 0
 79C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\alt-na.js133946992347234247 0
 79C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\alt-oc.js133946992347373283 0
+79C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\alt-sa.js133946992347418982 0
 75C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\AM.js133946992347551672 0
 75C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\AO.js133946992347639116 0
 75C:\Users\ADMIN\Desktop\tarunvb\node_modules\caniuse-lite\data\regions\AS.js133946992347935956 0
