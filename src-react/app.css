@@ -1,0 +1,58 @@
+/* Import Bebas Neue font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', sans-serif; /* Use your chosen font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for chat area */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Chat message bubbles */
+.chat-message {
+  display: flex;
+  font-size: 1.125rem; /* text-lg */
+  line-height: 1.5;
+}
+
+.user-message {
+  justify-content: flex-end;
+}
+
+.user-message p {
+  background-color: #e0f2f7; /* Light blue for user */
+  color: #333;
+  align-self: flex-end;
+}
+
+.bot-message {
+  justify-content: flex-start;
+}
+
+.bot-message p {
+  background-color: #d1fae5; /* Light green for bot */
+  color: #333;
+  align-self: flex-start;
+}
+
+/* Tailwind CSS classes if you are using it - ensure your tailwind.config.js is set up */
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+}
